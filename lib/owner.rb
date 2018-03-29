@@ -3,6 +3,7 @@ class Owner
 
 owner = []
 owner_count = 0
+
   attr_reader :species
   attr_accessor :name
 
