@@ -2,7 +2,7 @@ class Owner
   # code goes here
 
 @@all = []
-owner_count = 0
+@@owner_count = 0
 
   attr_reader :species
   attr_accessor :name
