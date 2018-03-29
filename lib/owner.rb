@@ -12,9 +12,6 @@ OWNERS = []
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
-  def name
-    @name
-  end
 
   def say_species(species)
     "I am a #{species}"
