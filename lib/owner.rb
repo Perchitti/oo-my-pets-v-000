@@ -9,4 +9,12 @@ class Owner
     @pets = {}
   end
 
+  def name
+    @name
+  end
+
+  def say_species(species)
+    @species = " "
+  end
+
 end
