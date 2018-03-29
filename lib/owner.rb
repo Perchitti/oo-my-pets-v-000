@@ -1,7 +1,13 @@
 class Owner
   # code goes here
 
-  def initialize(pets)
-    @pets = pets
+  attr_reader :species
+  attr_accessor :name
+
+  def initialize(pets, species)
+    @species = species
+    @pets = {
+
+    }
   end
 end
