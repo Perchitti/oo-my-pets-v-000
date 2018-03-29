@@ -8,7 +8,8 @@ OWNERS = []
 
   def initialize(pets, species)
     @species = species
-    @pets = {}
+    OWNERS << self
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
   def name
