@@ -14,7 +14,7 @@ OWNERS = []
 
 
   def say_species(species)
-    "I am a #{species}"
+    "I am a #{species}."
   end
 
 end
