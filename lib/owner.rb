@@ -29,6 +29,16 @@ OWNERS = []
       dog.mood = "happy"
     end
 
+    def play_with_cats
+      pets[:cats]each do |cat|
+        cat.mood = "happy"
+      end
+
+      def feed_fish
+        pets[:fishes]each do |fish|
+          fish.mood "happy"
+        end
+
   def self.all
     OWNERS << self
   end
