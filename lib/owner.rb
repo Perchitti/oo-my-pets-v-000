@@ -1,7 +1,7 @@
 class Owner
   # code goes here
 
-owner = []
+@@all = []
 owner_count = 0
 
   attr_reader :species
