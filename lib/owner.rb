@@ -24,6 +24,10 @@ OWNERS = []
     pets[:dogs] << Dog.new(name)
   end
 
+  def self.all
+    OWNERS << self
+  end
+
 
   def say_species
     "I am a #{species}."
