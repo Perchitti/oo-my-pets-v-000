@@ -28,6 +28,10 @@ OWNERS = []
     OWNERS << self
   end
 
+  def self.count
+    OWNERS = 0
+  end
+
 
   def say_species
     "I am a #{species}."
