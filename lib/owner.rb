@@ -28,8 +28,12 @@ OWNERS = []
     OWNERS << self
   end
 
+  def self.reset_all
+    OWNERS.clear
+  end
+
   def self.count
-    OWNERS = 0
+    OWNERS.size
   end
 
 
