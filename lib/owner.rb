@@ -20,6 +20,10 @@ OWNERS = []
     pets[:cats] << Cat.new(name)
   end
 
+  def buy_dog(name)
+    pets[:dogs] << Dog.new(name)
+  end
+
 
   def say_species
     "I am a #{species}."
